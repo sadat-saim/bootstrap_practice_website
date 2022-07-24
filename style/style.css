@@ -1,0 +1,55 @@
+html{
+    margin: 0 auto;
+}
+.badge{
+    top:0%;
+    right: 0%;
+}
+
+.carousel-item img{
+    height: 85vh;
+    object-fit: cover;
+}
+
+.review{
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(360px,1fr));
+    gap: 1rem;
+}
+
+.review>div{
+    padding: 1rem;
+}
+
+.accordion-button{
+    border: 1px solid #CCC;
+    outline: none;
+    font-weight: 600;
+}
+
+.accordion-button:not(.collapsed) {
+    color: #000;
+    background-color: #FFF;
+}
+
+.accordion-button:focus {
+    box-shadow: none;
+    border: 1px solid #CCC;
+}
+
+.accordion-item{
+    margin: 1rem 0;
+    border: none;
+}
+
+.accordion-body{
+    border: 1px solid #CCC;
+    border-top: none;
+    border-radius: 0px 0px 5px 5px;
+}
+
+.people{
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
